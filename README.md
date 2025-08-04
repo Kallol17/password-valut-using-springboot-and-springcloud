@@ -32,11 +32,12 @@ Maven
 
 
 📂 API Endpoints (Examples)
-Method          	Endpoint                        	Description
-POST	          /user/sign-up	                     Register a new user
-POST	          /user/login	                     User login (returns JWT)
-DELETE            /user/delete-user                  Delete user and all stored passwards of user (Basic authentication required)
-GET	              /article/view-my-articles      	 Fetch all stored passwords of user (JWT required)
-POST	          /article/create-article            Save a new password (JWT required)
-DELETE      	  /article/delete-article/{id}       Delete password by ID (JWT required)
-GET               /user/user-dashboard	             List all users (Admin access only)
+| Method | Endpoint                        | Description                            |
+|--------|----------------------------------|----------------------------------------|
+| POST   | `/user/sign-up`                 | Register a new user                    |
+| POST   | `/user/login`                   | User login (returns JWT)              |
+| DELETE | `/user/delete-user`             | Delete user and all stored passwords (Basic Auth required) |
+| GET    | `/article/view-my-articles`     | Fetch all stored passwords (JWT required) |
+| POST   | `/article/create-article`       | Save a new password (JWT required)    |
+| DELETE | `/article/delete-article/{id}`  | Delete password by ID (JWT required)  |
+| GET    | `/user/user-dashboard`          | List all users (Admin access only)    |
