@@ -41,3 +41,9 @@ Maven
 | POST   | `/article/create-article`       | Save a new password (JWT required)    |
 | DELETE | `/article/delete-article/{id}`  | Delete password by ID (JWT required)  |
 | GET    | `/user/user-dashboard`          | List all users (Admin access only)    |
+
+
+
+🧑‍💻 Author
+Kallol Dey
+https://github.com/Kallol17
